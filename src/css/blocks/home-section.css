@@ -1,0 +1,24 @@
+#home-section {
+    background: url('../img/home.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#home-section .home-inner {
+    padding-top: 100px;
+}
+
+#home-section .card-form {
+    opacity: .8;
+}
